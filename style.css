@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #f2f2f2;
   font-family: "Acme";
-  background: #000;
+  background: #4e4c4c;
 }
 
 .container {
@@ -70,7 +70,7 @@ body {
   padding: 0.5em 0;
   text-transform: uppercase;
   font-size: 2em;
-  background: linear-gradient(to right, #f32170, #ff0c08, #710071, #eedd44);
+  background: linear-gradient(to right, #d10a56, #8a0a07, #710071, #eedd44);
   -webkit-text-fill-color: transparent;
   -webkit-background-clip: text;
   animation: untold 3s infinite ease-in-out;
