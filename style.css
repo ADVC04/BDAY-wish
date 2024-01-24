@@ -3,7 +3,7 @@ body {
   padding: 0;
   background: #f2f2f2;
   font-family: "Acme";
-  background: #4e4c4c;
+  background: #000000;
 }
 
 .container {
@@ -14,7 +14,7 @@ body {
   justify-content: space-around;
 }
 
-.untoldcoding {
+.Birthday {
   position: relative;
   margin: 20px 0;
   width: 300px;
@@ -25,14 +25,14 @@ body {
   transition: 1s;
 }
 
-.untoldcoding:hover {
+.Birthday:hover {
   z-index: 1111;
   transform: perspective(2000px) rotate(-10deg);
 
   box-shadow: 5px 5px 20px rgb(235, 151, 128);
 }
 
-.untoldcoding .img-container {
+.Birthday .img-container {
   position: relative;
   width: 100%;
   height: 100%;
@@ -43,7 +43,7 @@ body {
   transition: 1s;
 }
 
-.untoldcoding .img-container img {
+.Birthday .img-container img {
   position: absolute;
   left: 0;
   top: 0;
@@ -52,11 +52,11 @@ body {
   object-fit: cover;
 }
 
-.untoldcoding:hover .img-container {
+.Birthday:hover .img-container {
   transform: rotateY(-135deg);
 }
 
-.untoldcoding .untoldcoding-details {
+.Birthday .Birthday-details {
   position: absolute;
   left: 0;
   top: 0;
@@ -65,7 +65,7 @@ body {
   color: #000;
 }
 
-.untoldcoding .untoldcoding-details h2 {
+.Birthday .Birthday-details h2 {
   margin: 0;
   padding: 0.5em 0;
   text-transform: uppercase;
